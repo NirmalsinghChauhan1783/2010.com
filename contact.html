@@ -6,24 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <nav class="glass-nav" style="margin-top:2.5rem;">
-    <a href="index.html">Home</a>
-  </nav>
-  <section class="glass-container">
+<body class="contact-page">
+  <a href="index.html" class="home-btn">&#8592; Back to Home</a>
+
+  <div class="contact-container">
     <h1>Contact Me</h1>
     <p><strong>Email:</strong> nirmalsingh@example.com</p>
     <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
     <p><strong>Location:</strong> Ahmedabad, Gujarat, India</p>
-    <form>
-      <input type="text" placeholder="Your Name" required class="form-input">
-      <input type="email" placeholder="Your Email" required class="form-input">
-      <textarea placeholder="Your Message" required class="form-input" rows="5"></textarea>
-      <button type="submit" class="stylish-btn">Send</button>
+    <hr style="margin:2rem 0;">
+    <h2 style="color:#2563eb; font-size:1.3rem;">Feedback</h2>
+
+    <form class="feedback-form">
+
+      <textarea id="feedback-message" name="feedback-message" rows="4" class="form-input" placeholder="Share your thoughts..." required></textarea>
+      <label for="feedback-rating">Rating</label>
+      <select id="feedback-rating" name="feedback-rating" class="form-input" required>
+        <option value="">Select rating</option>
+        <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+        <option value="4">⭐⭐⭐⭐ Good</option>
+        <option value="3">⭐⭐⭐ Average</option>
+        <option value="2">⭐⭐ Needs Improvement</option>
+        <option value="1">⭐ Poor</option>
+      </select>
+      <button type="submit" class="stylish-btn" style="margin-top:1rem;">Submit Feedback</button>
     </form>
-  </section>
-  <footer class="glass-container" style="margin-top:1rem; text-align:center;">
-    <p>&copy; 2025 Manav Webpage. Inspired by GitHub. All rights reserved.</p>
-  </footer>
+
+  </div>
+
 </body>
+
 </html>
