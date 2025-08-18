@@ -610,4 +610,29 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Blog Section */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(44,44,44,0.08);
+  padding: 1.5rem;
+  min-width: 220px;
+  max-width: 280px;
+  flex: 1 1 220px;
+  border: 1px solid #e3e6ee;
+}
+.blog-card h3 {
+  color: #2563eb;
+  margin-top: 0;
+}
+.blog-card p {
+  color: #444;
+  margin-bottom: 1rem;
+}
 
