@@ -1,6 +1,4 @@
-/* Professional Theme Styles */
 
-/* Body and Background */
 body {
   min-height: 100vh;
   margin: 0;
@@ -10,7 +8,6 @@ body {
   color: #222;
 }
 
-/* Navigation Bar */
 nav, .glass-nav {
   background: rgba(255,255,255,0.85);
   border-radius: 16px;
@@ -40,7 +37,6 @@ nav a:hover, .glass-nav a:hover {
   color: #fff;
 }
 
-/* Search Bar */
 .nav-search {
   background: #f5f7fa;
   border: 1px solid #c3cfe2;
@@ -63,7 +59,6 @@ nav a:hover, .glass-nav a:hover {
   box-shadow: 0 0 8px #2563eb33;
 }
 
-/* Glass Containers */
 .glass-container {
   background: rgba(255,255,255,0.85);
   border-radius: 18px;
@@ -78,7 +73,6 @@ nav a:hover, .glass-nav a:hover {
   box-sizing: border-box;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: #2563eb;
   margin-top: 0;
@@ -97,13 +91,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-/* Paragraphs */
 p, li, label {
   color: #222;
   font-size: 1.05rem;
 }
 
-/* Features Section */
 .feature-list {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +115,6 @@ p, li, label {
   border: 1px solid #e3e6ee;
 }
 
-/* Cards Section */
 .cards-section {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -188,7 +179,6 @@ p, li, label {
   transform: translateY(-2px) scale(1.05);
 }
 
-/* CTA Section */
 .cta {
   text-align: center;
   padding: 2rem 1rem;
@@ -200,7 +190,6 @@ p, li, label {
   padding: 1rem 2.5rem;
 }
 
-/* Stylish Button */
 .stylish-btn {
   background: linear-gradient(90deg, #2563eb 0%, #4ccee6 100%);
   color: #fff;
@@ -225,7 +214,6 @@ p, li, label {
   transform: translateY(-2px) scale(1.05);
 }
 
-/* Top-Right Sign-Up Link */
 .top-right-link {
   position: fixed;
   top: 20px;
@@ -251,7 +239,6 @@ p, li, label {
   transform: translateY(-2px);
 }
 
-/* Footer */
 footer.glass-container {
   background: rgba(255,255,255,0.85);
   color: #222;
@@ -263,7 +250,6 @@ footer.glass-container {
   margin-bottom: 0;
 }
 
-/* Professional Contact Page Styles */
 body.contact-page {
   background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
 }
@@ -319,7 +305,6 @@ body.contact-page {
   transform: translateY(-2px);
 }
 
-/* Feedback Form Styles */
 .feedback-form {
   margin-top: 1.5rem;
   display: flex;
@@ -348,7 +333,6 @@ body.contact-page {
   font-size: 1rem;
 }
 
-/* Resources Section */
 .resources .resource-list {
   display: flex;
   flex-wrap: wrap;
@@ -381,7 +365,6 @@ body.contact-page {
   font-size: 1rem;
 }
 
-/* Testimonials Section */
 .testimonials .testimonial-list {
   display: flex;
   flex-wrap: wrap;
@@ -409,7 +392,6 @@ body.contact-page {
   font-weight: 500;
 }
 
-/* FAQ Section */
 .faq .faq-list {
   display: flex;
   flex-direction: column;
@@ -426,7 +408,6 @@ body.contact-page {
   font-size: 1rem;
 }
 
-/* Professional Sign-Up Page Styles */
 body.signup-page {
   background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
 }
@@ -515,7 +496,6 @@ body.signup-page {
   color: #1e40af;
 }
 
-/* Back to Home Button on Sign-Up Page */
 .signup-back-home-btn {
   display: inline-block;
   margin: 2rem 0 2rem 2rem;
@@ -540,7 +520,6 @@ body.signup-page {
   transform: translateY(-2px) scale(1.05);
 }
 
-/* Responsive for Sign-Up */
 @media (max-width: 600px) {
   .signup-container {
     padding: 1.2rem 0.5rem;
@@ -605,12 +584,10 @@ body.signup-page {
   }
 }
 
-/* Smooth Scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Blog Section */
 .blog-list {
   display: flex;
   flex-wrap: wrap;
@@ -635,4 +612,3 @@ html {
   color: #444;
   margin-bottom: 1rem;
 }
-
